@@ -19,23 +19,23 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load the training dataset
-df_train = pd.read_csv("/Users/shingshing/MyDocuments/Comp4471/QATrain.csv", delimiter=",")
+df_train = pd.read_csv("/VQA/QATrain.csv", delimiter=",")
 df_train = df_train
-imagePathTrain = [f"/Users/shingshing/MyDocuments/Comp4471/images/{id}.jpg" for id in df_train['ImageID']]
+imagePathTrain = [f"/VQA/images/{id}.jpg" for id in df_train['ImageID']]
 questionSetTrain = list(df_train['Question'])
 answerSetTrain = list(df_train['Answer'])
 
 # Load the test dataset
-df_test = pd.read_csv("/Users/shingshing/MyDocuments/Comp4471/QATest.csv", delimiter=",")
+df_test = pd.read_csv("/VQA/QATest.csv", delimiter=",")
 df_test = df_test
-imagePathTest = [f"/Users/shingshing/MyDocuments/Comp4471/images/{id}.jpg" for id in df_test['ImageID']]
+imagePathTest = [f"/VQA/images/{id}.jpg" for id in df_test['ImageID']]
 questionSetTest = list(df_test['Question'])
 answerSetTest = list(df_test['Answer'])
 
 # Load the test dataset
-df_val = pd.read_csv("/Users/shingshing/MyDocuments/Comp4471/QAVal.csv", delimiter=",")
+df_val = pd.read_csv("/VQA/QAVal.csv", delimiter=",")
 df_val = df_val
-imagePathVal = [f"/Users/shingshing/MyDocuments/Comp4471/images/{id}.jpg" for id in df_val['ImageID']]
+imagePathVal = [f"/VQA/images/{id}.jpg" for id in df_val['ImageID']]
 questionSetVal = list(df_val['Question'])
 answerSetVal = list(df_val['Answer'])
 
