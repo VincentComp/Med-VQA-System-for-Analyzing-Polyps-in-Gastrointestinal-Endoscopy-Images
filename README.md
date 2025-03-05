@@ -1,4 +1,4 @@
-# [Med-VQA System for Analyzing Polyps in Gastrointestinal Endoscopy Images](./Paper.pdf)
+# Med-VQA System for Analyzing Polyps in Gastrointestinal Endoscopy Images [(Paper)](./Paper.pdf)
 
 ## Overview
 
