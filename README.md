@@ -1,1 +1,1 @@
-## [Download the Research Paper](./paper.pdf)
+## [Download the Research Paper](./Paper.pdf)
